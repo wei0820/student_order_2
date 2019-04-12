@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.gcssloop.widget:rclayout-1.6.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rclayout-1.6.0.aar/4dbed7fa8ce52f48a3d53f10b1d23dba/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rclayout-1.6.0.aar/4dbed7fa8ce52f48a3d53f10b1d23dba/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gcssloop.widget/rclayout/1.6.0/db168ffff313b04d150b81e75d783d38f2dcd6e7/rclayout-1.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

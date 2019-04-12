@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">點餐系統</string>
+    <string name="navigation_drawer_open">開啟</string>
+    <string name="navigation_drawer_close">關閉</string>
+    <string name="nav_header_title">名稱</string>
+    <string name="nav_header_subtitle"></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">設定</string>
+    <string name="facebook_app_id">587547585043297</string>
+    <string name="fb_login_protocol_scheme">fb587547585043297</string>
+    <string name="title_activity_member">MemberActivity</string>
+    <string name="title_activity_news">NewsActivity</string>
+
+</resources>
