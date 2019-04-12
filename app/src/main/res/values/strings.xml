@@ -10,5 +10,6 @@
     <string name="fb_login_protocol_scheme">fb587547585043297</string>
     <string name="title_activity_member">MemberActivity</string>
     <string name="title_activity_news">NewsActivity</string>
+    <string name="title_activity_home_page">HomePageActivity</string>
 
 </resources>

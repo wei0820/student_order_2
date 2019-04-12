@@ -26,11 +26,7 @@
         <activity
                 android:name=".LoginActivity"
                 android:theme="@style/AppTheme.FullScreen">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
         </activity>
 
         <meta-data
@@ -62,6 +58,16 @@
                 android:name=".OrderNewsActivity"
                 android:label="@string/title_activity_news"
                 android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".HomePageActivity"
+                android:label="@string/title_activity_home_page"
+                android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
         </activity>
     </application>
 
