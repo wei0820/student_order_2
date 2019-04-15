@@ -1,4 +1,4 @@
-package com.student.student_order
+package com.student.student_order_2
 
 import android.app.Application
 import com.facebook.FacebookSdk
@@ -18,14 +18,17 @@ class  MyApplication : Application() {
     fun  checkTime(){
         if (MySharedPrefernces.getMyCardTime(getApplicationContext()).equals("")) {
             System.currentTimeMillis()
-            MySharedPrefernces.saveMyCardTime(getApplicationContext(),System.currentTimeMillis().toString())
+            MySharedPrefernces.saveMyCardTime(
+                getApplicationContext(),
+                System.currentTimeMillis().toString()
+            )
 
         } else {
 
            var last: Long = (MySharedPrefernces.getMyCardTime(getApplicationContext())).toLong()
            var now : Long =System.currentTimeMillis()
             if(now-last>=24* 60 * 60 * 1000){
-                MySharedPrefernces.saveMyCardTime(getApplicationContext(),"")
+                MySharedPrefernces.saveMyCardTime(getApplicationContext(), "")
 
             }
 

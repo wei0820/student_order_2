@@ -7,7 +7,7 @@
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         tools:showIn="@layout/activity_login"
-        tools:context=".LoginActivity">
+        tools:context="com.student.student_order_2.LoginActivity">
     <com.facebook.login.widget.LoginButton
             android:layout_centerInParent="true"
             android:id="@+id/login_button"

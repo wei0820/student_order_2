@@ -1,4 +1,4 @@
-package com.student.student_order;
+package com.student.student_order_2;
 
 public class MemberData {
     public static final String KEY_URL = "https://order-3fe87.firebaseio.com/MemberList";

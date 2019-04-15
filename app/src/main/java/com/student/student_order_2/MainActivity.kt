@@ -1,4 +1,4 @@
-package com.student.student_order
+package com.student.student_order_2
 
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -20,10 +20,9 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import com.facebook.login.LoginManager
-import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.app_bar_main.*
 import com.jackpan.libs.mfirebaselib.MfiebaselibsClass
 import com.jackpan.libs.mfirebaselib.MfirebaeCallback
+import com.student.student_order.R
 
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener, LocationListener,
@@ -99,7 +98,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         checkPermission()
         setSupportActionBar(toolbar)
         val toggle = ActionBarDrawerToggle(
-            this, drawer_layout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close
+            this, drawer_layout, toolbar,
+            R.string.navigation_drawer_open,
+            R.string.navigation_drawer_close
         )
         drawer_layout.addDrawerListener(toggle)
         toggle.syncState()
@@ -152,10 +153,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.nav_camera -> {
-                startActivity(Intent(this,MemberActivity::class.java))
+                startActivity(Intent(this, MemberActivity::class.java))
             }
             R.id.nav_gallery -> {
-                startActivity(Intent(this,OrderNewsActivity::class.java))
+                startActivity(Intent(this, OrderNewsActivity::class.java))
 
             }
             R.id.nav_slideshow -> {
@@ -174,7 +175,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_send -> {
                 Toast.makeText(this,"會員登出",Toast.LENGTH_SHORT).show()
                 LoginManager.getInstance().logOut()
-                startActivity(Intent(this,LoginActivity::class.java))
+                startActivity(Intent(this, LoginActivity::class.java))
                 finish()
             }
         }
@@ -188,7 +189,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         mImageView = headerView.findViewById(R.id.imageView)
         mNameTextView = headerView.findViewById(R.id.nametext)
         mEmailTextView = headerView.findViewById(R.id.textView)
-        FacebookManager.checkFbState(this,mImageView,mNameTextView,mEmailTextView)
+        FacebookManager.checkFbState(this, mImageView, mNameTextView, mEmailTextView)
 
     }
 

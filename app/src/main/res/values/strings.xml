@@ -12,5 +12,6 @@
     <string name="title_activity_news">NewsActivity</string>
     <string name="title_activity_home_page">HomePageActivity</string>
     <string name="title_activity_order">OrderActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
 
 </resources>

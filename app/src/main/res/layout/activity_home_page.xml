@@ -6,7 +6,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.student.student_order.HomePageActivity">
+        tools:context="com.student.student_order_2.HomePageActivity">
     <TextView
 
             android:layout_centerInParent="true"

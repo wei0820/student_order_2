@@ -1,12 +1,12 @@
-package com.student.student_order
+package com.student.student_order_2
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log
 import android.widget.ImageView
 import android.widget.TextView
 import com.jackpan.libs.mfirebaselib.MfiebaselibsClass
 import com.jackpan.libs.mfirebaselib.MfirebaeCallback
+import com.student.student_order.R
 
 class MemberActivity : AppCompatActivity() , MfirebaeCallback {
     override fun resetPassWordState(p0: Boolean) {
@@ -63,7 +63,7 @@ class MemberActivity : AppCompatActivity() , MfirebaeCallback {
 
         setContentView(R.layout.content_member)
         initLayout()
-        FacebookManager.checkFbState(this,mImageView,mIdTextView,mNameTextView)
+        FacebookManager.checkFbState(this, mImageView, mIdTextView, mNameTextView)
         mfiebaselibsClass!!.getFirebaseDatabase("https://order-3fe87.firebaseio.com/MemberList/2249556051978557","2249556051978557")
     }
 
@@ -74,7 +74,9 @@ class MemberActivity : AppCompatActivity() , MfirebaeCallback {
         mNameTextView = findViewById(R.id.nametext)
         mPointTextView = findViewById(R.id.pointtext)
         mTimeTextView = findViewById(R.id.timetext)
-        mTimeTextView.text = "上次登入時間:"+MyApi.getDate(MySharedPrefernces.getMyCardTime(this).toLong())
+        mTimeTextView.text = "上次登入時間:"+ MyApi.getDate(
+            MySharedPrefernces.getMyCardTime(this).toLong()
+        )
 
     }
 

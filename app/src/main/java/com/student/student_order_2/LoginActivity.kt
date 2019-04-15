@@ -1,4 +1,4 @@
-package com.student.student_order
+package com.student.student_order_2
 
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -11,6 +11,7 @@ import com.facebook.CallbackManager
 import com.facebook.FacebookSdk
 import com.facebook.appevents.AppEventsLogger
 import com.facebook.login.widget.LoginButton
+import com.student.student_order.R
 
 
 class LoginActivity : AppCompatActivity(){
@@ -36,14 +37,19 @@ class LoginActivity : AppCompatActivity(){
 
         if (FacebookManager.checkFbState(this)){
 
-            startActivity(Intent(this,MainActivity::class.java))
+            startActivity(Intent(this, MainActivity::class.java))
             finish()
         }else{
 
         }
         mFbLoginBtn = findViewById(R.id.login_button)
         FacebookManager.printHashKey(this)
-        FacebookManager.fbLogin(this,mFbLoginBtn,callbackManager,MainActivity::class.java)
+        FacebookManager.fbLogin(
+            this,
+            mFbLoginBtn,
+            callbackManager,
+            MainActivity::class.java
+        )
         checkPermission()
 
 
