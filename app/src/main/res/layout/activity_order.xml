@@ -1,11 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
+        android:background="#FF3333	"
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.student.student_order.OrderActivity">
+        tools:context="com.student.student_order.OrderActivity"
+        android:orientation="vertical">
+    <LinearLayout
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+    >
+        <Button
+                android:text="設定"
+                android:textSize="28dp"
+                android:layout_marginRight="8dp"
 
+                android:background="#33FFFF	"
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+        ></Button>
+        <Button
+                android:text="您好！"
+                android:textSize="28dp"
+                android:layout_marginLeft="8dp"
+                android:background="#33FFFF	"
 
+                android:layout_weight="7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+        ></Button>
+    </LinearLayout>
+
+    <Button
+            android:text="麵線"
+            android:textSize="28dp"
+            android:background="#33FFFF	"
+
+            android:id="@+id/food1"
+            android:layout_centerInParent="true"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+    ></Button>
+
+    <Button
+            android:text="炸物"
+            android:textSize="28dp"
+            android:background="#33FFFF	"
+
+            android:layout_marginTop="28dp"
+            android:layout_below="@+id/food1"
+            android:layout_centerInParent="true"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+    ></Button>
+
+    <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+    >
+        <Button
+                android:text="餐點"
+                android:textSize="28dp"
+                android:layout_marginRight="8dp"
+                android:background="#33FFFF	"
+
+                android:layout_weight="4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+        ></Button>
+        <Button
+                android:text="購物清單"
+                android:textSize="28dp"
+                android:layout_marginLeft="8dp"
+                android:background="#33FFFF	"
+
+                android:layout_weight="6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+        ></Button>
+    </LinearLayout>
 </RelativeLayout>
