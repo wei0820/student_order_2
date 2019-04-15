@@ -63,6 +63,7 @@
 
     <Button
 
+            android:id="@+id/button2"
             android:text="本店資訊"
             android:textSize="24dp"
             android:background="#33FFFF	"
