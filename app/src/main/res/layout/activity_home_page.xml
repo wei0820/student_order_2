@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
+        android:background="#FF3333	"
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
@@ -7,6 +8,7 @@
         android:layout_height="match_parent"
         tools:context="com.student.student_order.HomePageActivity">
     <TextView
+
             android:layout_centerInParent="true"
             android:text="神\n岡\n大\n腸\n麵\n線"
             android:textSize="50dp"
@@ -16,6 +18,8 @@
 
 
     <Button
+            android:background="#33FFFF	"
+
             android:id="@+id/button"
             android:layout_marginBottom="20dp"
             android:layout_alignParentBottom="true"
