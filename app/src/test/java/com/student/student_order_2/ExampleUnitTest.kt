@@ -1,4 +1,4 @@
-package com.student.student_order
+package com.student.student_order_2
 
 import org.junit.Test
 
