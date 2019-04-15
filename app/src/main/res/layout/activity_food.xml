@@ -9,16 +9,16 @@
         tools:context="com.student.student_order_2.OrderActivity"
         android:orientation="vertical">
     <LinearLayout
+            android:id="@+id/toplayout"
             android:layout_alignParentTop="true"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:orientation="horizontal"
     >
         <Button
-                android:id="@+id/settingbtn"
                 android:background="#33FFFF	"
 
-                android:text="設定"
+                android:text="返回"
                 android:textSize="28dp"
                 android:layout_marginRight="8dp"
 
@@ -27,7 +27,7 @@
                 android:layout_height="match_parent"
         ></Button>
         <Button
-                android:text="您好！"
+                android:text="設定"
                 android:textSize="28dp"
                 android:layout_marginLeft="8dp"
                 android:background="#33FFFF	"
@@ -37,25 +37,29 @@
                 android:layout_height="match_parent"
         ></Button>
     </LinearLayout>
-
     <Button
+
+            android:id="@+id/button"
             android:text="麵線"
             android:textSize="28dp"
             android:background="#33FFFF	"
 
-            android:id="@+id/food1"
+            android:layout_marginTop="28dp"
+            android:layout_below="@+id/toplayout"
             android:layout_centerInParent="true"
             android:layout_width="200dp"
             android:layout_height="100dp"
     ></Button>
 
     <Button
+            android:id="@+id/button2"
+
             android:text="炸物"
-            android:textSize="28dp"
+            android:textSize="24dp"
             android:background="#33FFFF	"
 
             android:layout_marginTop="28dp"
-            android:layout_below="@+id/food1"
+            android:layout_below="@+id/button"
             android:layout_centerInParent="true"
             android:layout_width="200dp"
             android:layout_height="100dp"

@@ -3,8 +3,9 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
-
 apply plugin: 'com.google.gms.google-services'
+
+
 android {
     compileSdkVersion 28
     defaultConfig {
@@ -57,7 +58,5 @@ dependencies {
     implementation 'com.mcxiaoke.volley:library:1.0.+'
     implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'com.gcssloop.widget:rclayout:1.6.0'
-    compile 'com.github.iammert:ExpandableLayout:1.4.1'
-
 
 }

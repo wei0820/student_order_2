@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.student.student_order">
+          package="com.student.student_order_2">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.CALL_PHONE"/>
@@ -11,21 +11,14 @@
     <uses-permission android:name="android.permission.CAMERA"/>
 
     <application
-            android:name="com.student.student_order_2.MyApplication"
+            android:name=".MyApplication"
             android:allowBackup="true"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/app_name"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity
-                android:name="com.student.student_order_2.MainActivity"
-                android:label="@string/app_name"
-                android:theme="@style/AppTheme.NoActionBar">
-        </activity>
-        <activity
-                android:name="com.student.student_order_2.LoginActivity"
-                android:theme="@style/AppTheme.FullScreen">
+        <activity android:name=".MainActivity">
         </activity>
 
         <meta-data
@@ -49,18 +42,7 @@
             </intent-filter>
         </activity>
         <activity
-                android:name="com.student.student_order_2.MemberActivity"
-                android:label="@string/title_activity_member"
-                android:theme="@style/AppTheme.NoActionBar">
-        </activity>
-        <activity
-                android:name="com.student.student_order_2.OrderNewsActivity"
-                android:label="@string/title_activity_news"
-                android:theme="@style/AppTheme.NoActionBar">
-        </activity>
-        <activity
-                android:name="com.student.student_order_2.HomePageActivity"
-                android:label="@string/title_activity_home_page"
+                android:name=".HomePageActivity"
                 android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -69,13 +51,22 @@
             </intent-filter>
         </activity>
         <activity
-                android:name="com.student.student_order_2.OrderActivity"
-                android:label="@string/title_activity_order"
+                android:name=".FoodActivity"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+                android:name=".SettingActivity"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+                android:name=".OrderActivity"
+                android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+                android:name=".FoodMenu_1Activity"
+                android:label="@string/title_activity_food_menu_1"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-                android:name=".SettingActivity"
-                android:label="@string/title_activity_setting"
+                android:name=".FoodMenu_2Activity"
+                android:label="@string/title_activity_food_menu_2"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
     </application>

@@ -10,12 +10,6 @@
             android:layout_height="match_parent"
           >
 
-        <iammert.com.expandablelib.ExpandableLayout
-                android:id="@+id/el"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:childLayout="@layout/layout_child"
-                app:parentLayout="@layout/layout_parent" />
 
     </ScrollView>
 
