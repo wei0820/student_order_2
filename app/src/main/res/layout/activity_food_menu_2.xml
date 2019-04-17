@@ -6,7 +6,6 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.student.student_order_2.OrderActivity"
         android:orientation="vertical">
     <LinearLayout
             android:id="@+id/toplayout"

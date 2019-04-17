@@ -6,7 +6,6 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.student.student_order_2.OrderActivity"
         android:orientation="vertical">
     <LinearLayout
             android:id="@+id/toplayout"
@@ -16,9 +15,10 @@
             android:orientation="horizontal"
     >
         <Button
+                android:id="@+id/exit"
                 android:background="#33FFFF	"
 
-                android:text="返回"
+                android:text="g"
                 android:textSize="28dp"
                 android:layout_marginRight="8dp"
 
@@ -38,12 +38,10 @@
         ></Button>
     </LinearLayout>
     <Button
-
             android:id="@+id/button"
             android:text="麵線"
             android:textSize="28dp"
             android:background="#33FFFF	"
-
             android:layout_marginTop="28dp"
             android:layout_below="@+id/toplayout"
             android:layout_centerInParent="true"

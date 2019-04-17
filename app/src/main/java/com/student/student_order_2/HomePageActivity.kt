@@ -19,7 +19,6 @@ class HomePageActivity : AppCompatActivity() {
             startActivity(Intent(this, OrderActivity::class.java))
 
         }
-
     }
 
 }

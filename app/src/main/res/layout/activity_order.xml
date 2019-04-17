@@ -39,6 +39,7 @@
     </LinearLayout>
 
     <Button
+
             android:text="麵線"
             android:textSize="28dp"
             android:background="#33FFFF	"
@@ -50,6 +51,7 @@
     ></Button>
 
     <Button
+            android:id="@+id/food2"
             android:text="炸物"
             android:textSize="28dp"
             android:background="#33FFFF	"
