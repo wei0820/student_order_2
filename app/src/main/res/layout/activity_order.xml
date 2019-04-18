@@ -70,6 +70,7 @@
             android:orientation="horizontal"
     >
         <Button
+                android:visibility="gone"
                 android:text="餐點"
                 android:textSize="28dp"
                 android:layout_marginRight="8dp"
@@ -80,6 +81,7 @@
                 android:layout_height="match_parent"
         ></Button>
         <Button
+                android:id="@+id/orderbtn"
                 android:text="購物清單"
                 android:textSize="28dp"
                 android:layout_marginLeft="8dp"

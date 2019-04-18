@@ -34,7 +34,8 @@ class SettingActivity : AppCompatActivity() {
 
         }
         mButton2.setOnClickListener {
-            MyApi.setAlertDilog(this,"本店資訊","30年代的傳統口味的精緻料理，且是一種深具魅力的料理藝術，我們古法調配的湯頭加上純手工製作的手工麵線以及我們老闆自己親手滷的大腸和自己炒的辣蘿蔔，經過精心調配再現傳統美味")
+            MyApi.setAlertDilog(this,"本店資訊","30年代的傳統口味的精緻料理，且是一種深具魅力的料理藝術，我們古法調配的湯頭加上純手工製作的手工麵線以及我們老闆自己親手滷的大腸和自己炒的辣蘿蔔，經過精心調配再現傳統美味" +
+                    "\n地址:台中市神岡區中山路1313號")
 
         }
 

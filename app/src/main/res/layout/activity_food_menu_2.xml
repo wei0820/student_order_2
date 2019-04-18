@@ -56,12 +56,14 @@
 
 
     <LinearLayout
+
             android:layout_alignParentBottom="true"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:orientation="horizontal"
     >
         <Button
+                android:id="@+id/order"
                 android:text="餐點"
                 android:textSize="28dp"
                 android:layout_marginRight="8dp"
@@ -72,6 +74,7 @@
                 android:layout_height="match_parent"
         ></Button>
         <Button
+                android:id="@+id/orderlist"
                 android:text="購物清單"
                 android:textSize="28dp"
                 android:layout_marginLeft="8dp"

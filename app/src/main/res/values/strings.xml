@@ -4,6 +4,8 @@
     <string name="fb_login_protocol_scheme">fb587547585043297</string>
     <string name="title_activity_food_menu_1">FoodMenu_1Activity</string>
     <string name="title_activity_food_menu_2">FoodMenu_2Activity</string>
+    <string name="title_activity_add_food">addFoodActivity</string>
+    <string name="title_activity_order_list">OrderListActivity</string>
 
 
 </resources>

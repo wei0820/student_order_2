@@ -50,7 +50,9 @@ public class FacebookManager {
     private static FirebaseAuth auth;
     private static FirebaseAuth.AuthStateListener authListener;
     private static AccessTokenTracker accessTokenTracker;
-
+    int [] array = {R.mipmap.photo1,R.mipmap.photo2,R.mipmap.photo3,
+            R.mipmap.photo4,R.mipmap.photo5,R.mipmap.photo6
+    };
     //臉書登入
     public static void fbLogin(final Context context, LoginButton mFbLoginButton, CallbackManager callbackManager, final Class<?> c) {
         List<String> PERMISSIONS_PUBLISH = Arrays.asList("public_profile", "email");
