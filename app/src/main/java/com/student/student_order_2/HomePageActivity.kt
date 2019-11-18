@@ -23,14 +23,25 @@ class HomePageActivity : AppCompatActivity() {
         AppEventsLogger.activateApp(this)
         FacebookSdk.sdkInitialize(applicationContext)
         setContentView(R.layout.activity_home_page)
-        mButton =findViewById(R.id.button)
         mFbLoginBtn = findViewById(R.id.login_button)
         FacebookManager.printHashKey(this)
         FacebookManager.fbLogin(this,mFbLoginBtn,callbackManager,OrderActivity::class.java)
 //        mButton.setOnClickListener {
-//            startActivity(Intent(this, OrderActivity::class.java))
 //
 //        }
+
+    }
+
+    override fun onResume() {
+        super.onResume()
+        if (FacebookManager.checkFbState(this)){
+            startActivity(Intent(this, OrderActivity::class.java))
+
+        }
+    }
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        callbackManager!!.onActivityResult(requestCode, resultCode, data)
     }
 
 }
