@@ -12,21 +12,14 @@ import com.google.firebase.FirebaseApp
 
 
 class SettingActivity : AppCompatActivity() {
-    var callbackManager: CallbackManager? = null
-    lateinit var mFbLoginBtn : LoginButton
     lateinit var mButton:Button
     lateinit var mButton2: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        callbackManager = CallbackManager.Factory.create()
-        AppEventsLogger.activateApp(this)
-        FacebookSdk.sdkInitialize(applicationContext)
         setContentView(R.layout.activity_setting)
         FirebaseApp.initializeApp(this)
 
-        mFbLoginBtn = findViewById(R.id.login_button)
-        FacebookManager.printHashKey(this)
-        FacebookManager.fbLogin(this,mFbLoginBtn,callbackManager,SettingActivity::class.java)
+
         mButton = findViewById(R.id.button)
         mButton2 = findViewById(R.id.button2)
         mButton.setOnClickListener {
