@@ -90,8 +90,16 @@ class addFoodActivity : AppCompatActivity() {
         getDate()
         mNextBtn.setOnClickListener {
             if (!mEditText.text.isEmpty()){
+
                 priceNum = priceNum+(price * (mEditText.text.toString().toInt()))
-                MySharedPrefernces.saveMusicState(this,priceNum)
+                if (MySharedPrefernces.getMusicState(this).equals("")){
+                    MySharedPrefernces.saveMusicState(this,priceNum)
+
+                }else{
+                   priceNum = priceNum+ MySharedPrefernces.getMusicState(this)
+                    MySharedPrefernces.saveMusicState(this,priceNum)
+
+                }
                 orderlist = fooname+mEditText.text+"個"+food+priceNum+"元"
                 if(MySharedPrefernce.getList(this).size==0){
                     list.add(orderlist)
@@ -179,7 +187,7 @@ class addFoodActivity : AppCompatActivity() {
 
                 title.text = name[4]
                 img.setImageResource(array[3])
-                mPrice.text = nameprice[9]
+                mPrice.text = nameprice[8]
 
             }
             5 ->{
@@ -189,7 +197,7 @@ class addFoodActivity : AppCompatActivity() {
                 price = 30
 
                 title.text = name[5]
-                mPrice.text = nameprice[10]
+                mPrice.text = nameprice[9]
 
                 img.setImageResource(array[4])
             }
