@@ -5,7 +5,8 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".OrderListActivity">
+        tools:context=".OrderListActivity"
+        android:background="@mipmap/bg3">
     <ListView
             android:layout_above="@+id/layout"
             android:id="@+id/listview"
