@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">student_order_2</string>
+    <string name="app_name">金金麵線</string>
     <string name="facebook_app_id">1750329835112298</string>
     <string name="fb_login_protocol_scheme">fb587547585043297</string>
     <string name="title_activity_food_menu_1">FoodMenu_1Activity</string>
