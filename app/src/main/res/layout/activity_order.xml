@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
-        android:background="#FF3333	"
+        android:background="@mipmap/bg3"
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
@@ -16,7 +16,7 @@
     >
         <Button
                 android:id="@+id/settingbtn"
-                android:background="#33FFFF	"
+                android:background="#FFFFFF"
 
                 android:text="設定"
                 android:textSize="28dp"
@@ -30,7 +30,7 @@
                 android:text="您好！"
                 android:textSize="28dp"
                 android:layout_marginLeft="8dp"
-                android:background="#33FFFF	"
+                android:background="#FFFFFF"
 
                 android:layout_weight="7"
                 android:layout_width="match_parent"
@@ -42,7 +42,7 @@
 
             android:text="麵線"
             android:textSize="28dp"
-            android:background="#33FFFF	"
+            android:background="#FFFFFF"
 
             android:id="@+id/food1"
             android:layout_centerInParent="true"
@@ -54,7 +54,7 @@
             android:id="@+id/food2"
             android:text="炸物"
             android:textSize="28dp"
-            android:background="#33FFFF	"
+            android:background="#FFFFFF"
 
             android:layout_marginTop="28dp"
             android:layout_below="@+id/food1"
@@ -74,7 +74,7 @@
                 android:text="餐點"
                 android:textSize="28dp"
                 android:layout_marginRight="8dp"
-                android:background="#33FFFF	"
+                android:background="#FFFFFF"
 
                 android:layout_weight="4"
                 android:layout_width="match_parent"
@@ -85,8 +85,7 @@
                 android:text="購物清單"
                 android:textSize="28dp"
                 android:layout_marginLeft="8dp"
-                android:background="#33FFFF	"
-
+                android:background="#FFFFFF"
                 android:layout_weight="6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

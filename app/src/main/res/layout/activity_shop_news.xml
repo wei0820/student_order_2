@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ShopNewsActivity"
+        android:background="@mipmap/bg3">
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/bg2"
+            ></ImageView>
+    <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textColor="#000000"
+            android:text="30年代的傳統口味的精緻料理，且是一種深具魅力的料理藝術，我們古法調配的湯頭加上純手工製作的手工麵線以及我們老闆自己親手滷的大腸和自己炒的辣蘿蔔，經過精心調配再現傳統美味
+    \n地址:台中市神岡區中山路1313號"
+            ></TextView>
+
+</LinearLayout>
