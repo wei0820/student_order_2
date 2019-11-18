@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
-        android:background="#FF3333	"
+        android:background="@mipmap/bg"
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context="com.student.student_order_2.HomePageActivity">
-    <TextView
+<!--    <TextView-->
 
-            android:layout_centerInParent="true"
-            android:text="神\n岡\n大\n腸\n麵\n線"
-            android:textSize="50dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-    ></TextView>
+<!--            android:layout_centerInParent="true"-->
+<!--            android:text="神\n岡\n大\n腸\n麵\n線"-->
+<!--            android:textSize="50dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--    ></TextView>-->
 
     <com.facebook.login.widget.LoginButton
             android:layout_marginBottom="50dp"
