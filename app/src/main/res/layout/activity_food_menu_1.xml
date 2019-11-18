@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
-        android:background="#FF3333	"
+        android:background="@mipmap/bag"
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
@@ -15,7 +15,7 @@
             android:orientation="horizontal"
     >
         <Button
-                android:background="#33FFFF	"
+                android:background="#ffffff"
 
                 android:text="麵線"
                 android:textSize="28dp"
@@ -31,7 +31,7 @@
             android:id="@+id/button"
             android:text="大腸麵線"
             android:textSize="28dp"
-            android:background="#33FFFF	"
+            android:background="#ffffff"
 
             android:layout_marginTop="28dp"
             android:layout_below="@+id/toplayout"
@@ -45,7 +45,7 @@
             android:id="@+id/button2"
             android:text="肉羹麵線"
             android:textSize="24dp"
-            android:background="#33FFFF	"
+            android:background="#ffffff"
 
             android:layout_marginTop="28dp"
             android:layout_below="@+id/button"
@@ -58,7 +58,7 @@
 
             android:text="綜合麵線"
             android:textSize="24dp"
-            android:background="#33FFFF	"
+            android:background="#ffffff"
 
             android:layout_marginTop="28dp"
             android:layout_below="@+id/button2"
@@ -72,7 +72,7 @@
 
             android:text="清麵線"
             android:textSize="24dp"
-            android:background="#33FFFF	"
+            android:background="#ffffff"
 
             android:layout_marginTop="28dp"
             android:layout_below="@+id/button3"
@@ -92,7 +92,7 @@
                 android:text="餐點"
                 android:textSize="28dp"
                 android:layout_marginRight="8dp"
-                android:background="#33FFFF	"
+                android:background="#ffffff"
 
                 android:layout_weight="4"
                 android:layout_width="match_parent"
@@ -103,7 +103,7 @@
                 android:text="購物清單"
                 android:textSize="28dp"
                 android:layout_marginLeft="8dp"
-                android:background="#33FFFF	"
+                android:background="#ffffff"
 
                 android:layout_weight="6"
                 android:layout_width="match_parent"

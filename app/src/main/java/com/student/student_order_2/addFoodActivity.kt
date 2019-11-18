@@ -32,6 +32,8 @@ class addFoodActivity : AppCompatActivity() {
     lateinit var mBig :Button
      var price:Int = 0
     var priceNum:Int = 0
+    var total : Int = 0
+    lateinit var mPriceTextView: TextView
 
     var pricelist = ArrayList<String>()
 
@@ -39,6 +41,7 @@ class addFoodActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_food)
         title = findViewById(R.id.title)
+        mPriceTextView =findViewById(R.id.price)
         img = findViewById(R.id.img)
         mNextBtn = findViewById(R.id.nextbtn)
         mOrderBtn = findViewById(R.id.orderbtn)
@@ -50,12 +53,7 @@ class addFoodActivity : AppCompatActivity() {
         mbtn3 = findViewById(R.id.button3)
         mSmallbtn = findViewById(R.id.small)
         mBig = findViewById(R.id.big)
-        if (MySharedPrefernces.getMusicState(this)==0){
-            priceNum = 0
-        }else{
-            priceNum = MySharedPrefernces.getMusicState(this)
 
-        }
         mSmallbtn.setOnClickListener {
             Toast.makeText(this,"選擇小碗",Toast.LENGTH_SHORT).show()
             if (key==3){
@@ -64,6 +62,7 @@ class addFoodActivity : AppCompatActivity() {
                 price = 45
 
             }
+            mPriceTextView.text = "價錢："+price
 //            priceNum = priceNum+(price * (mEditText.text.toString().toInt()))
 //            MySharedPrefernces.saveMusicState(this,priceNum)
 
@@ -76,14 +75,25 @@ class addFoodActivity : AppCompatActivity() {
                 price = 60
 
             }
+            mPriceTextView.text = "價錢："+price
 
 
         }
         getDate()
         mNextBtn.setOnClickListener {
             if (!mEditText.text.isEmpty()){
-                priceNum = priceNum+(price * (mEditText.text.toString().toInt()))
-                MySharedPrefernces.saveMusicState(this,priceNum)
+                if (MySharedPrefernces.getMusicState(this)!=0){
+                    total = MySharedPrefernces.getMusicState(this)
+                    priceNum = priceNum+(price * (mEditText.text.toString().toInt()))
+                    total = total + priceNum
+
+                }else{
+                    priceNum = priceNum+(price * (mEditText.text.toString().toInt()))
+                    total = total + priceNum
+
+                }
+                MySharedPrefernces.saveMusicState(this,total)
+
                 orderlist = fooname+mEditText.text+"個"+food+priceNum+"元"
                 if(MySharedPrefernce.getList(this).size==0){
                     list.add(orderlist)
@@ -161,6 +171,7 @@ class addFoodActivity : AppCompatActivity() {
                 mBig.visibility = View.GONE
                 price = 55
                 fooname = name[4]
+                mPriceTextView.text = "價錢："+price
 
                 title.text = name[4]
                 img.setImageResource(array[3])
@@ -170,6 +181,7 @@ class addFoodActivity : AppCompatActivity() {
                 mBig.visibility = View.GONE
                 fooname = name[5]
                 price = 30
+                mPriceTextView.text = "價錢："+price
 
                 title.text = name[5]
                 img.setImageResource(array[4])

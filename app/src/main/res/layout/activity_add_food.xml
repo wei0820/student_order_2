@@ -3,7 +3,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
-        android:background="#FF3333	"
+        android:background="@mipmap/bag"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -18,7 +18,7 @@
                 android:gravity="center"
                 android:layout_gravity="center"
                 android:id="@+id/title"
-                android:background="#33FFFF	"
+                android:background="#ffffff"
                 android:textSize="28dp"
                 android:layout_marginRight="8dp"
 
@@ -87,7 +87,11 @@
                 android:layout_width="wrap_content"
         ></TextView>
         <Button
+
+                android:layout_marginRight="8dp"
+
                 android:id="@+id/button0"
+                android:background="#ffffff"
 
                 android:text="無辣"
                 android:layout_weight="1"
@@ -95,7 +99,10 @@
                 android:layout_width="wrap_content"
         ></Button>
         <Button
+                android:layout_marginRight="8dp"
+
                 android:id="@+id/button1"
+                android:background="#ffffff"
 
                 android:text="小"
                 android:layout_weight="1"
@@ -103,7 +110,10 @@
                 android:layout_width="wrap_content"
         ></Button>
         <Button
+                android:layout_marginRight="8dp"
+
                 android:id="@+id/button2"
+                android:background="#ffffff"
 
                 android:text="中"
                 android:layout_weight="1"
@@ -111,6 +121,8 @@
                 android:layout_width="wrap_content"
         ></Button>
         <Button
+                android:background="#ffffff"
+
                 android:id="@+id/button3"
                 android:text="大"
                 android:layout_weight="1"
@@ -138,6 +150,9 @@
         ></TextView>
 
         <Button
+                android:layout_marginRight="8dp"
+                android:background="#ffffff"
+
                 android:id="@+id/small"
                 android:text="小"
                 android:layout_weight="1"
@@ -146,21 +161,33 @@
         ></Button>
 
         <Button
+                android:background="#ffffff"
+
                 android:id="@+id/big"
                 android:text="大"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
         ></Button>
+
+        <TextView
+                android:id="@+id/price"
+                android:text=""
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+        ></TextView>
     </LinearLayout>
     <Button
+            android:layout_marginTop="12dp"
             android:layout_alignParentRight="true"
             android:layout_below="@+id/button4"
             android:id="@+id/nextbtn"
             android:text="送出"
             android:textSize="28dp"
             android:layout_marginRight="8dp"
-            android:background="#33FFFF	"
+            android:background="#ffffff"
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

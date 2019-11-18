@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
-        android:background="#FF3333	"
+        android:background="@mipmap/bag"
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
@@ -9,6 +9,7 @@
         tools:context="com.student.student_order_2.OrderActivity"
         android:orientation="vertical">
     <LinearLayout
+            android:visibility="invisible"
             android:id="@+id/toplayout"
             android:layout_alignParentTop="true"
             android:layout_width="match_parent"
@@ -16,7 +17,7 @@
             android:orientation="horizontal"
     >
         <Button
-                android:background="#33FFFF	"
+                android:background="#ffffff"
 
                 android:text="返回"
                 android:textSize="28dp"
@@ -52,7 +53,7 @@
             android:id="@+id/button"
             android:text="關於我們"
             android:textSize="28dp"
-            android:background="#33FFFF	"
+            android:background="#ffffff"
 
             android:layout_marginTop="28dp"
             android:layout_below="@+id/food1"
@@ -66,8 +67,7 @@
             android:id="@+id/button2"
             android:text="本店資訊"
             android:textSize="24dp"
-            android:background="#33FFFF	"
-
+            android:background="#ffffff"
             android:layout_marginTop="28dp"
             android:layout_below="@+id/button"
             android:layout_centerInParent="true"
@@ -76,6 +76,7 @@
     ></Button>
 
     <LinearLayout
+            android:visibility="gone"
             android:layout_alignParentBottom="true"
             android:layout_width="match_parent"
             android:layout_height="80dp"
