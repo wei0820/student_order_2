@@ -26,9 +26,6 @@ class HomePageActivity : AppCompatActivity() {
         mFbLoginBtn = findViewById(R.id.login_button)
         FacebookManager.printHashKey(this)
         FacebookManager.fbLogin(this,mFbLoginBtn,callbackManager,OrderActivity::class.java)
-//        mButton.setOnClickListener {
-//
-//        }
 
     }
 
