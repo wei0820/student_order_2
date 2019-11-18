@@ -60,13 +60,11 @@ class OrderListActivity : AppCompatActivity(), MfirebaeCallback {
     lateinit var mbtn2: Button
     lateinit var mbtn3: Button
     var name = "內用"
-
     var list = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         mfiebaselibsClass = MfiebaselibsClass(this, this)
-
         setContentView(R.layout.activity_order_list)
         mListView = findViewById(R.id.listview)
         mPrice = findViewById(R.id.price)
@@ -123,7 +121,6 @@ class OrderListActivity : AppCompatActivity(), MfirebaeCallback {
         memberMap.put("清單", list)
         memberMap.put("方式", name)
         memberMap.put("總價", price)
-//        memberMap.put(MemberData.KEY_MEMBERLV, MemberData.MEMBER_LV_1)
         mfiebaselibsClass!!.setFireBaseDB(
             "https://order-c72e7.firebaseio.com/foodlist",
             MySharedPrefernces.getUserPic(this),
