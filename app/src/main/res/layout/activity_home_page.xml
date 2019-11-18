@@ -16,17 +16,24 @@
             android:layout_height="wrap_content"
     ></TextView>
 
-
-    <Button
-            android:background="#33FFFF	"
-
-            android:id="@+id/button"
-            android:layout_marginBottom="20dp"
+    <com.facebook.login.widget.LoginButton
+            android:layout_marginBottom="50dp"
             android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:text="進入點餐"
-    ></Button>
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/toplayout"
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            />
+<!--    <Button-->
+<!--            android:background="#33FFFF	"-->
+<!--            android:id="@+id/button"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="進入點餐"-->
+<!--    ></Button>-->
 
 </RelativeLayout>
