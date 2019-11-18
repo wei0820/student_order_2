@@ -15,6 +15,12 @@ class addFoodActivity : AppCompatActivity() {
     internal var array =
         intArrayOf( R.mipmap.photo4, R.mipmap.photo6,R.mipmap.photo3, R.mipmap.photo5,R.mipmap.photo1)
     internal var name = arrayOf("大腸麵線", "肉羹麵線", "綜合麵線", "清麵線", "香雞排", "花枝丸")
+    internal var nameprice = arrayOf("小 45元", "大 60元",
+        "小 45元", "大 60元",
+        "小 45元", "大 60元"
+        ,"小 35元", "大 50元",
+        "55元","30元")
+
     lateinit var mNextBtn :Button
     lateinit var mOrderBtn :Button
     lateinit var mOrderList :Button
@@ -32,6 +38,7 @@ class addFoodActivity : AppCompatActivity() {
     lateinit var mBig :Button
      var price:Int = 0
     var priceNum:Int = 0
+    lateinit var mPrice :TextView
 
     var pricelist = ArrayList<String>()
 
@@ -50,6 +57,7 @@ class addFoodActivity : AppCompatActivity() {
         mbtn3 = findViewById(R.id.button3)
         mSmallbtn = findViewById(R.id.small)
         mBig = findViewById(R.id.big)
+        mPrice = findViewById(R.id.price)
         if (MySharedPrefernces.getMusicState(this)==0){
             priceNum = 0
         }else{
@@ -138,23 +146,30 @@ class addFoodActivity : AppCompatActivity() {
                 title.text = name[0]
                 img.setImageResource(array[0])
                 fooname = name[0]
+                mPrice.text = nameprice[0]+"\n"+nameprice[1]
             }
             1 ->{
                 title.text = name[1]
                 img.setImageResource(array[1])
                 fooname = name[1]
+                mPrice.text = nameprice[0]+"\n"+nameprice[1]
+
 
             }
             2 ->{
                 title.text = name[2]
                 img.setImageResource(array[2])
                 fooname = name[2]
+                mPrice.text = nameprice[0]+"\n"+nameprice[1]
+
             }
             3 ->{
                 fooname = name[3]
 
                 title.text = name[3]
                 img.setImageResource(array[0])
+                mPrice.text = nameprice[6]+"\n"+nameprice[7]
+
             }
             4 ->{
                 mSmallbtn.visibility = View.GONE
@@ -164,6 +179,8 @@ class addFoodActivity : AppCompatActivity() {
 
                 title.text = name[4]
                 img.setImageResource(array[3])
+                mPrice.text = nameprice[9]
+
             }
             5 ->{
                 mSmallbtn.visibility = View.GONE
@@ -172,6 +189,8 @@ class addFoodActivity : AppCompatActivity() {
                 price = 30
 
                 title.text = name[5]
+                mPrice.text = nameprice[10]
+
                 img.setImageResource(array[4])
             }
 

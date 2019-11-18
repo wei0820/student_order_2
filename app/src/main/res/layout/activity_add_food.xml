@@ -36,14 +36,22 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
     ></ImageView>
-
+    <TextView
+            android:id="@+id/price"
+            android:layout_below="@+id/img"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ></TextView>
 
     <RelativeLayout
             android:orientation="horizontal"
             android:id="@+id/layout3"
 
 
-            android:layout_marginTop="28dp"
+            android:layout_marginTop="60dp"
             android:layout_below="@+id/img"
             android:layout_centerInParent="true"
             android:layout_width="match_parent"
@@ -97,7 +105,7 @@
         <Button
                 android:id="@+id/button1"
 
-                android:text="小"
+                android:text="小辣"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
@@ -105,14 +113,14 @@
         <Button
                 android:id="@+id/button2"
 
-                android:text="中"
+                android:text="中辣"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
         ></Button>
         <Button
                 android:id="@+id/button3"
-                android:text="大"
+                android:text="大辣"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
