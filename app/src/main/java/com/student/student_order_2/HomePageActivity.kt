@@ -33,6 +33,7 @@ class HomePageActivity : AppCompatActivity() {
         super.onResume()
         if (FacebookManager.checkFbState(this)){
             startActivity(Intent(this, OrderActivity::class.java))
+            finish()
 
         }
     }
