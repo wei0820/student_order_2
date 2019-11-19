@@ -15,9 +15,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8272a954-444b-4c37-9e48-34b4b8afda72" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/HomePageActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/HomePageActivity.kt" afterDir="false" />
-    </list>
+    <list default="true" id="8272a954-444b-4c37-9e48-34b4b8afda72" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,10 +23,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
+<<<<<<< HEAD
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="DEF4C19828000296" />
+=======
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="G9AZCY05T233H4J" />
+>>>>>>> ab8b435f1ca1a8276360d1ca8408f3f1d116d46b
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -44,27 +48,47 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/OrderListActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="236">
               <caret line="20" column="20" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="20" />
               <folding>
                 <element signature="e#37#241#0" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/FoodMenu_1Activity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-687">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+              <folding>
+                <element signature="e#37#277#0" expanded="true" />
+>>>>>>> ab8b435f1ca1a8276360d1ca8408f3f1d116d46b
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/SettingActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
               <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/OrderListActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="653">
+              <caret line="73" column="39" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
+              <folding>
+                <element signature="e#37#374#0" expanded="true" />
+              </folding>
+>>>>>>> ab8b435f1ca1a8276360d1ca8408f3f1d116d46b
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/HomePageActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
@@ -72,33 +96,67 @@
               <folding>
                 <element signature="e#37#411#0" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_order_list.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+>>>>>>> ab8b435f1ca1a8276360d1ca8408f3f1d116d46b
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/MySharedPrefernces.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="109">
               <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/SettingActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="e#37#367#0" expanded="true" />
+              </folding>
+>>>>>>> ab8b435f1ca1a8276360d1ca8408f3f1d116d46b
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/addFoodActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-831">
               <caret line="95" column="55" selection-start-line="95" selection-start-column="55" selection-end-line="95" selection-end-column="55" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1026">
+              <caret line="54" column="44" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="44" />
+>>>>>>> ab8b435f1ca1a8276360d1ca8408f3f1d116d46b
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/OrderActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-84">
               <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/FacebookManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> ab8b435f1ca1a8276360d1ca8408f3f1d116d46b
             </state>
           </provider>
         </entry>
@@ -106,13 +164,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/FoodMenu_2Activity.kt">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="95">
+=======
+            <state relative-caret-position="-30">
+>>>>>>> ab8b435f1ca1a8276360d1ca8408f3f1d116d46b
               <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/MyApplication.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
@@ -120,6 +183,12 @@
               <folding>
                 <element signature="e#37#181#0" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/MySharedPrefernces.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+>>>>>>> ab8b435f1ca1a8276360d1ca8408f3f1d116d46b
             </state>
           </provider>
         </entry>
@@ -134,10 +203,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/src/main/java/MySharedPrefernce.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
               <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/HomePageActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="18" column="21" selection-start-line="18" selection-end-line="19" />
+>>>>>>> ab8b435f1ca1a8276360d1ca8408f3f1d116d46b
             </state>
           </provider>
         </entry>
@@ -169,6 +245,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/MainActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/OrderNewsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/MemberActivity.kt" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/FoodActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
@@ -192,6 +269,20 @@
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
+=======
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/FoodActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_order_list.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/OrderListActivity.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-1" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
+>>>>>>> ab8b435f1ca1a8276360d1ca8408f3f1d116d46b
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -210,10 +301,11 @@
     </entry>
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -269,6 +361,11 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+=======
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+>>>>>>> ab8b435f1ca1a8276360d1ca8408f3f1d116d46b
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -347,6 +444,7 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
     </panes>
   </component>
@@ -355,8 +453,19 @@
     <property name="device.picker.selection" value="G9AZCY05T233H4J" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi" />
+=======
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="G9AZCY05T233H4J" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-11-18T16:48:16.181Z" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="device.picker.selection" value="G9AZCY05T233H4J" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> ab8b435f1ca1a8276360d1ca8408f3f1d116d46b
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="sync.plugin.last.upgrade.timestamp" value="1563126392569" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
@@ -506,11 +615,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Resources Explorer" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22103004" />
+=======
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+>>>>>>> ab8b435f1ca1a8276360d1ca8408f3f1d116d46b
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Build Variants" order="3" side_tool="true" />
@@ -518,24 +634,41 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Captures" order="6" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="7" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32771084" />
+=======
+      <window_info id="Resources Explorer" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
+>>>>>>> ab8b435f1ca1a8276360d1ca8408f3f1d116d46b
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Build" order="7" weight="0.27108434" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.32771084" />
       <window_info anchor="bottom" id="Logcat" order="10" sideWeight="0.49928468" visible="true" weight="0.28915662" />
+=======
+      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.3960396" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Logcat" order="10" weight="0.32876712" />
+>>>>>>> ab8b435f1ca1a8276360d1ca8408f3f1d116d46b
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+<<<<<<< HEAD
       <window_info anchor="right" id="Preview" order="4" weight="0.32904148" />
+=======
+      <window_info anchor="right" id="Preview" order="4" weight="0.32956383" />
+>>>>>>> ab8b435f1ca1a8276360d1ca8408f3f1d116d46b
       <window_info anchor="right" id="Device File Explorer" order="5" side_tool="true" />
       <window_info anchor="right" id="Gradle" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -543,6 +676,7 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/LoginActivity.kt" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_food.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -661,6 +795,9 @@
       <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_food.xml">
+=======
+    <entry file="file://$PROJECT_DIR$/app/google-services.json">
+>>>>>>> ab8b435f1ca1a8276360d1ca8408f3f1d116d46b
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
@@ -676,6 +813,7 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_food_menu_2.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -685,6 +823,18 @@
       <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home_page.xml">
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_home_page.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_order.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home_page.xml">
+      <provider editor-type-id="android-designer2" />
+>>>>>>> ab8b435f1ca1a8276360d1ca8408f3f1d116d46b
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
@@ -692,6 +842,7 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
       <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="android-designer2" />
@@ -713,6 +864,22 @@
       <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_setting.xml">
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_setting.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_login.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_setting.xml">
+      <provider editor-type-id="android-designer2" />
+>>>>>>> ab8b435f1ca1a8276360d1ca8408f3f1d116d46b
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="526">
           <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
@@ -720,7 +887,12 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_food.xml">
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_order.xml">
+      <provider editor-type-id="android-designer2" />
+>>>>>>> ab8b435f1ca1a8276360d1ca8408f3f1d116d46b
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="163" column="4" selection-start-line="163" selection-start-column="4" selection-end-line="163" selection-end-column="4" />
@@ -728,6 +900,7 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_add_food.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -755,6 +928,25 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_member.xml">
       <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="android-designer2" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/FruitCategory.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/Fruit.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/OrderNewsActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/MemberActivity.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/LoginActivity.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_food.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/MainActivity.kt" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="69" column="59" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="59" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+>>>>>>> ab8b435f1ca1a8276360d1ca8408f3f1d116d46b
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_news.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -783,6 +975,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/MySharedPrefernces.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
@@ -796,6 +989,58 @@
           <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="e#37#181#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_food_menu_2.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/photo1.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/FoodActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/addFoodActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/OrderActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/photo6.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_food_menu_1.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/FacebookManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+>>>>>>> ab8b435f1ca1a8276360d1ca8408f3f1d116d46b
           </folding>
         </state>
       </provider>
@@ -807,15 +1052,23 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/FoodMenu_2Activity.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/HomePageActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" column="21" selection-start-line="18" selection-end-line="19" />
+>>>>>>> ab8b435f1ca1a8276360d1ca8408f3f1d116d46b
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/addFoodActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-831">
           <caret line="95" column="55" selection-start-line="95" selection-start-column="55" selection-end-line="95" selection-end-column="55" />
         </state>
@@ -827,10 +1080,24 @@
           <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="e#37#411#0" expanded="true" />
+=======
+        <state relative-caret-position="-30">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/FoodMenu_1Activity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-687">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="e#37#277#0" expanded="true" />
+>>>>>>> ab8b435f1ca1a8276360d1ca8408f3f1d116d46b
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/OrderActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-84">
@@ -844,14 +1111,54 @@
           <caret line="20" column="20" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="20" />
           <folding>
             <element signature="e#37#241#0" expanded="true" />
-          </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="54" column="44" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/MySharedPrefernces.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/SettingActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#37#367#0" expanded="true" />
+>>>>>>> ab8b435f1ca1a8276360d1ca8408f3f1d116d46b
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/SettingActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_order_list.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/OrderListActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="73" column="39" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
+          <folding>
+            <element signature="e#37#374#0" expanded="true" />
+          </folding>
+>>>>>>> ab8b435f1ca1a8276360d1ca8408f3f1d116d46b
         </state>
       </provider>
     </entry>

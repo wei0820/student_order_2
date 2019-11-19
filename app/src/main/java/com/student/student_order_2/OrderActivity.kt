@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import com.student.student_order_2.R
 
 class OrderActivity : AppCompatActivity() {
@@ -22,16 +23,33 @@ class OrderActivity : AppCompatActivity() {
 
         }
         morderLitButton.setOnClickListener {
+            if(!FacebookManager.checkFbState(this))
+            {
+                Toast.makeText(this,"請先登入",Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
             startActivity(Intent(this,OrderListActivity::class.java))
         }
         mFood1 = findViewById(R.id.food1)
         mFoo2 = findViewById(R.id.food2)
 
         mFood1.setOnClickListener {
+            if(!FacebookManager.checkFbState(this))
+            {
+                Toast.makeText(this,"請先登入",Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+
+            }
             startActivity(Intent(this, FoodMenu_1Activity::class.java))
 
         }
         mFoo2.setOnClickListener {
+            if(!FacebookManager.checkFbState(this))
+            {
+                Toast.makeText(this,"請先登入",Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+
+            }
             startActivity(Intent(this, FoodMenu_2Activity::class.java))
 
         }

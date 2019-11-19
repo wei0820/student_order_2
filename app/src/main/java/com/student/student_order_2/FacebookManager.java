@@ -234,6 +234,7 @@ public class FacebookManager {
             Bundle bundle = new Bundle();
             String id = object.getString("id");
             String photo = "";
+            MySharedPrefernces.saveUserPic(context,id);
             try {
                 URL profile_pic = new URL("https://graph.facebook.com/" + id + "/picture?width=200&height=150");
                 Log.d(TAG, profile_pic + "");
