@@ -15,9 +15,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8272a954-444b-4c37-9e48-34b4b8afda72" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/HomePageActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/student/student_order_2/HomePageActivity.kt" afterDir="false" />
-    </list>
+    <list default="true" id="8272a954-444b-4c37-9e48-34b4b8afda72" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
