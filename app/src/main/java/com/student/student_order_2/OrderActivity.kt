@@ -4,9 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.Button
-import android.widget.TextView
 import android.widget.Toast
-import com.student.student_order_2.R
 
 class OrderActivity : AppCompatActivity() {
     lateinit var mSettingButton: Button
