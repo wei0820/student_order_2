@@ -11,7 +11,6 @@ import com.facebook.login.widget.LoginButton
 
 
 class HomePageActivity : AppCompatActivity() {
-    lateinit var  mButton: Button
     lateinit var mFbLoginBtn : LoginButton
     var callbackManager: CallbackManager? = null
 

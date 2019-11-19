@@ -120,11 +120,9 @@ class OrderListActivity : AppCompatActivity(), MfirebaeCallback {
         val mCal = Calendar.getInstance()
         val s = DateFormat.format("yyyy-MM-dd kk:mm:ss", mCal.getTime());
         var key = MySharedPrefernces.getUserPic(this) + s
-
         val memberMap = HashMap<String, String>()
         memberMap.put("id", MySharedPrefernces.getUserPic(this))
         memberMap.put("date",key)
-
         memberMap.put("清單", list)
         memberMap.put("方式", name)
         memberMap.put("總價", price)
