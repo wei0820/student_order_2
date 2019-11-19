@@ -36,7 +36,7 @@ class addFoodActivity : AppCompatActivity() {
     var fooname = ""
     lateinit var mSmallbtn :Button
     lateinit var mBig :Button
-     var price:Int = 0
+    var price:Int = 0
     var priceNum:Int = 0
     var priceNumTotal:Int = 0
 
@@ -69,7 +69,7 @@ class addFoodActivity : AppCompatActivity() {
         mSmallbtn.setOnClickListener {
             Toast.makeText(this,"選擇小碗",Toast.LENGTH_SHORT).show()
             if (key==3){
-               price = 35
+                price = 35
             }else{
                 price = 45
 
@@ -141,9 +141,9 @@ class addFoodActivity : AppCompatActivity() {
 
         }
     }
-     var key :Int = 0
+    var key :Int = 0
     fun  getDate(){
-       val i =  intent.extras.getInt("key",0)
+        val i =  intent.extras.getInt("key",0)
         key = i
         when(i){
             0 ->{

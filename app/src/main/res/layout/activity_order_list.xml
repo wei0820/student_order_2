@@ -8,6 +8,7 @@
         tools:context=".OrderListActivity"
         android:background="@mipmap/bg3">
     <ListView
+            android:layout_marginBottom="16dp"
             android:layout_above="@+id/layout"
             android:id="@+id/listview"
             android:layout_width="match_parent"
@@ -15,6 +16,7 @@
 
     ></ListView>
     <LinearLayout
+            android:layout_marginBottom="12dp"
             android:id="@+id/layout"
             android:layout_above="@+id/bottom"
             android:layout_centerInParent="true"
@@ -34,16 +36,23 @@
                 android:layout_height="wrap_content"
         >
             <TextView
+
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="預定方式"
             ></TextView>
             <Button
+                    android:layout_marginRight="8dp"
+                    android:background="#ffffff"
+                    android:id="@+id/btn11"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="內用"
             ></Button>
             <Button
+                    android:background="#ffffff"
+
+                    android:id="@+id/btn22"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="外帶 "
@@ -59,12 +68,17 @@
             android:orientation="horizontal"
     >
         <Button
+                android:layout_marginRight="8dp"
+                android:background="#ffffff"
+
                 android:id="@+id/clear"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="清除"
         ></Button>
         <Button
+                android:background="#ffffff"
+
                 android:id="@+id/send"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

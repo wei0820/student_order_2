@@ -27,7 +27,6 @@ class SettingActivity : AppCompatActivity() {
 
         }
         mButton2.setOnClickListener {
-//            MyApi.setAlertDilog(this,"本店資訊",)
             startActivity(Intent(this,ShopNewsActivity::class.java))
 
         }
