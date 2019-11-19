@@ -1,9 +1,8 @@
 package com.student.student_order_2;
+
 import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
-
-import java.util.Date;
 public class MySharedPrefernces {
     public static final String NAME = "MySharedPrefernces";
 

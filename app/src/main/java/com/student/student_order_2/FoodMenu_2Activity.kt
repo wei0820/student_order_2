@@ -2,12 +2,8 @@ package com.student.student_order_2
 
 import android.content.Intent
 import android.os.Bundle
-import android.support.design.widget.CheckableImageButton
-import android.support.design.widget.Snackbar
-import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.AppCompatActivity
 import android.widget.Button
-
-import kotlinx.android.synthetic.main.activity_food_menu_2.*
 
 class FoodMenu_2Activity : AppCompatActivity() {
     lateinit var mButton: Button
