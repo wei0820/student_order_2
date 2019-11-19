@@ -1,16 +1,13 @@
 package com.student.student_order_2
 
+
+import MySharedPrefernce
 import android.os.Bundle
-import android.support.design.widget.Snackbar
-import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.AppCompatActivity
 import android.text.format.DateFormat
-import android.util.Log
 import android.widget.*
 import com.jackpan.libs.mfirebaselib.MfiebaselibsClass
 import com.jackpan.libs.mfirebaselib.MfirebaeCallback
-
-
-import kotlinx.android.synthetic.main.activity_order_list.*
 import java.util.*
 import kotlin.collections.ArrayList
 import kotlin.collections.HashMap

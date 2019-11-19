@@ -49,9 +49,6 @@
             </intent-filter>
         </activity>
         <activity
-                android:name=".FoodActivity"
-                android:theme="@style/AppTheme.NoActionBar" />
-        <activity
                 android:name=".SettingActivity"
                 android:theme="@style/AppTheme.NoActionBar" />
         <activity
