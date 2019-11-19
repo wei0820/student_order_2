@@ -7,14 +7,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context="com.student.student_order_2.HomePageActivity">
-<!--    <TextView-->
-
-<!--            android:layout_centerInParent="true"-->
-<!--            android:text="神\n岡\n大\n腸\n麵\n線"-->
-<!--            android:textSize="50dp"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--    ></TextView>-->
 
 
     <com.facebook.login.widget.LoginButton
@@ -27,14 +19,5 @@
             android:layout_width="wrap_content"
             android:layout_height="200dp"
             />
-<!--    <Button-->
-<!--            android:background="#33FFFF	"-->
-<!--            android:id="@+id/button"-->
-<!--            android:layout_marginBottom="20dp"-->
-<!--            android:layout_alignParentBottom="true"-->
-<!--            android:layout_width="300dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="進入點餐"-->
-<!--    ></Button>-->
 
 </RelativeLayout>
