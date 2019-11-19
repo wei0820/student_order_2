@@ -3,6 +3,7 @@ package com.student.student_order_2
 import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity;
+import android.text.format.DateFormat
 import android.util.Log
 import android.widget.*
 import com.jackpan.libs.mfirebaselib.MfiebaselibsClass
@@ -10,6 +11,9 @@ import com.jackpan.libs.mfirebaselib.MfirebaeCallback
 
 
 import kotlinx.android.synthetic.main.activity_order_list.*
+import java.util.*
+import kotlin.collections.ArrayList
+import kotlin.collections.HashMap
 
 class OrderListActivity : AppCompatActivity(), MfirebaeCallback {
     override fun getUserLogoutState(p0: Boolean) {
@@ -116,16 +120,23 @@ class OrderListActivity : AppCompatActivity(), MfirebaeCallback {
         list: String, name: String,
         price: String
     ) {
+        val mCal = Calendar.getInstance()
+        val s = DateFormat.format("yyyy-MM-dd kk:mm:ss", mCal.getTime());
+        var key = MySharedPrefernces.getUserPic(this) + s
+
         val memberMap = HashMap<String, String>()
         memberMap.put("id", MySharedPrefernces.getUserPic(this))
+        memberMap.put("date",key)
+
         memberMap.put("清單", list)
         memberMap.put("方式", name)
         memberMap.put("總價", price)
         mfiebaselibsClass!!.setFireBaseDB(
-            "https://order-c72e7.firebaseio.com/foodlist",
-            MySharedPrefernces.getUserPic(this),
+            "https://order-c72e7.firebaseio.com/foodlist"+"/"+
+            key,s.toString(),
             memberMap
         )
+
 
 
     }
