@@ -17,7 +17,7 @@ class OrderActivity : AppCompatActivity() {
         mSettingButton = findViewById(R.id.settingbtn)
         morderLitButton = findViewById(R.id.orderbtn)
         mSettingButton.setOnClickListener {
-            startActivity(Intent(this, SettingActivity::class.java))
+            startActivity(Intent(this, FoodLoveListActivity::class.java))
 
         }
         morderLitButton.setOnClickListener {
