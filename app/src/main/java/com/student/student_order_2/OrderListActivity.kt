@@ -133,11 +133,12 @@ class OrderListActivity : AppCompatActivity(), MfirebaeCallback {
         memberMap.put("總價", price)
         mfiebaselibsClass!!.setFireBaseDB(
             "https://order-c72e7.firebaseio.com/foodlist"+"/"+
-            key,s.toString(),
+                    MySharedPrefernces.getUserPic(this),s.toString(),
             memberMap
         )
 
 
 
     }
+    
 }
