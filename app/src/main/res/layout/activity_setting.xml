@@ -39,15 +39,15 @@
                 ></Button>
     </LinearLayout>
 
-    <com.facebook.login.widget.LoginButton
-            android:layout_marginTop="20dp"
-            android:layout_below="@+id/toplayout"
-            android:layout_centerInParent="true"
-            android:id="@+id/login_button"
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:layout_gravity="center"
-            />
+<!--    <com.facebook.login.widget.LoginButton-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_below="@+id/toplayout"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:id="@+id/login_button"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="200dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            />-->
 
     <Button
             android:id="@+id/button"
