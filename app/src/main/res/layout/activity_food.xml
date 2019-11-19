@@ -17,11 +17,9 @@
         <Button
                 android:id="@+id/exit"
                 android:background="#33FFFF	"
-
                 android:text="g"
                 android:textSize="28dp"
                 android:layout_marginRight="8dp"
-
                 android:layout_weight="3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

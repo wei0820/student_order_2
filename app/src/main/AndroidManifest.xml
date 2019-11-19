@@ -19,8 +19,6 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity android:name=".ShopNewsActivity"></activity>
-        <activity android:name=".MainActivity"></activity>
-
         <meta-data
                 android:name="com.facebook.sdk.ApplicationId"
                 android:value="@string/facebook_app_id" />
