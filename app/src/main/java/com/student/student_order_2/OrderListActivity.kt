@@ -74,7 +74,8 @@ class OrderListActivity : AppCompatActivity(), MfirebaeCallback {
         mbtn3 = findViewById(R.id.send)
         mPrice.text = "總價：" + MySharedPrefernces.getMusicState(this)
         mClearButton = findViewById(R.id.clear)
-        val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, MySharedPrefernce.getList(this))
+        val adapter =
+            ArrayAdapter(this, android.R.layout.simple_list_item_1, MySharedPrefernce.getList(this))
         mListView.adapter = adapter
         mClearButton.setOnClickListener {
             arrayList.clear()
@@ -83,7 +84,11 @@ class OrderListActivity : AppCompatActivity(), MfirebaeCallback {
             Toast.makeText(this, "全部清除", Toast.LENGTH_SHORT).show()
             mPrice.text = "0"
 
-            val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, MySharedPrefernce.getList(this))
+            val adapter = ArrayAdapter(
+                this,
+                android.R.layout.simple_list_item_1,
+                MySharedPrefernce.getList(this)
+            )
             mListView.adapter = adapter
         }
         mbtn1.setOnClickListener {
@@ -122,16 +127,15 @@ class OrderListActivity : AppCompatActivity(), MfirebaeCallback {
         var key = MySharedPrefernces.getUserPic(this) + s
         val memberMap = HashMap<String, String>()
         memberMap.put("id", MySharedPrefernces.getUserPic(this))
-        memberMap.put("date",key)
-        memberMap.put("清單", list)
-        memberMap.put("方式", name)
-        memberMap.put("總價", price)
+        memberMap.put("date", key)
+        memberMap.put("list", list)
+        memberMap.put("name", name)
+        memberMap.put("price", price)
         mfiebaselibsClass!!.setFireBaseDB(
-            "https://order-c72e7.firebaseio.com/foodlist"+"/"+
-                    MySharedPrefernces.getUserPic(this),s.toString(),
+            "https://order-c72e7.firebaseio.com/foodlist" + "/" +
+                    MySharedPrefernces.getUserPic(this), s.toString(),
             memberMap
         )
-
 
 
     }
