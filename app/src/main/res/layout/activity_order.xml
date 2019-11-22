@@ -15,27 +15,22 @@
             android:orientation="horizontal"
             >
 
-        <com.spark.submitbutton.SubmitButton
+        <Button
+                android:background="@drawable/buttoonstyle"
                 android:id="@+id/settingbtn"
                 android:text="設定"
                 android:textSize="15dp"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:textColor="@color/gray"
-                app:sub_btn_background="@color/white"
-                app:sub_btn_line_color="@color/green" />
-        <com.spark.submitbutton.SubmitButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        <Button
+                android:id="@+id/list"
                 android:layout_alignParentRight="true"
                 android:text="購物紀錄"
                 android:textSize="15dp"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:textColor="@color/gray"
-                app:sub_btn_background="@color/white"
-                app:sub_btn_duration="30"
-                app:sub_btn_line_color="@color/green"
-                app:sub_btn_ripple_color="@color/green"
-                app:sub_btn_tick_color="@color/white" />
+                android:background="@drawable/buttoonstyle"
+                />
     </RelativeLayout>
 
     <Button

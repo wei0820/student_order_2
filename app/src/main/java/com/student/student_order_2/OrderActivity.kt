@@ -7,19 +7,24 @@ import android.widget.Button
 import android.widget.Toast
 
 class OrderActivity : AppCompatActivity() {
-    lateinit var mSettingButton: com.spark.submitbutton.SubmitButton
+    lateinit var mSettingButton: Button
     lateinit var mFood1:Button
     lateinit var mFoo2 :Button
     lateinit var morderLitButton: Button
+    lateinit var mListButton: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_order)
         mSettingButton = findViewById(R.id.settingbtn)
         morderLitButton = findViewById(R.id.orderbtn)
+        mListButton = findViewById(R.id.list)
         mSettingButton.setOnClickListener {
             startActivity(Intent(this, SettingActivity::class.java))
-//            startActivity(Intent(this, FoodLoveListActivity::class.java))
 
+
+        }
+        mListButton.setOnClickListener {
+                        startActivity(Intent(this, FoodLoveListActivity::class.java))
 
         }
         morderLitButton.setOnClickListener {
