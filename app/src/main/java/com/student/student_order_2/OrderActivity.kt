@@ -7,7 +7,7 @@ import android.widget.Button
 import android.widget.Toast
 
 class OrderActivity : AppCompatActivity() {
-    lateinit var mSettingButton: com.spark.submitbutton.SubmitButton
+    lateinit var mSettingButton: Button
     lateinit var mFood1:Button
     lateinit var mFoo2 :Button
     lateinit var morderLitButton: Button
