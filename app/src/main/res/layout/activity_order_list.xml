@@ -46,14 +46,14 @@
             ></TextView>
             <Button
                     android:layout_marginRight="8dp"
-                    android:background="#ffffff"
+                    android:background="@drawable/buttoonstyle"
                     android:id="@+id/btn11"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="內用"
             ></Button>
             <Button
-                    android:background="#ffffff"
+                    android:background="@drawable/buttoonstyle"
 
                     android:id="@+id/btn22"
                     android:layout_width="wrap_content"
@@ -72,7 +72,7 @@
     >
         <Button
                 android:layout_marginRight="8dp"
-                android:background="#ffffff"
+                android:background="@drawable/buttoonstyle"
 
                 android:id="@+id/clear"
                 android:layout_width="wrap_content"
@@ -80,7 +80,7 @@
                 android:text="清除"
         ></Button>
         <Button
-                android:background="#ffffff"
+                android:background="@drawable/buttoonstyle"
 
                 android:id="@+id/send"
                 android:layout_width="wrap_content"
