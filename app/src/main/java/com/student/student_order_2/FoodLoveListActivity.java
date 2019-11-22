@@ -1,5 +1,6 @@
 package com.student.student_order_2;
 
+import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -19,6 +20,8 @@ public class FoodLoveListActivity extends AppCompatActivity implements MfirebaeC
     MfiebaselibsClass mfiebaselibsClass;
     ArrayList<String> arrayList = new ArrayList<>();
     ArrayList<String> arrayList2 = new ArrayList<>();
+    private ProgressDialog progress;
+
 
     ListAdapter adapter;
     private static final String TAG = "FoodLoveListActivity";
@@ -27,6 +30,10 @@ public class FoodLoveListActivity extends AppCompatActivity implements MfirebaeC
         super.onCreate(savedInstanceState);
         mfiebaselibsClass = new MfiebaselibsClass(this,this);
         setContentView(R.layout.activity_food_love_list);
+        progress = new ProgressDialog(this);
+        progress.setMessage("讀取中");
+        //progress.setIndeterminate(true);
+        progress.show();
         mListview = findViewById(R.id.listview);
         adapter = new ArrayAdapter<String>(this , android.R.layout.simple_list_item_1 ,arrayList);
         setFireBase();
@@ -112,6 +119,7 @@ public class FoodLoveListActivity extends AppCompatActivity implements MfirebaeC
                 String st = "點過的商品:"+foodData.list;
                 arrayList.add(st);
                 mListview.setAdapter(adapter);
+                progress.dismiss();
             }
 
             @Override

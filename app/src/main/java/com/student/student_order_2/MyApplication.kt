@@ -36,7 +36,7 @@ class  MyApplication : Application() {
                     )
                 )//String something = new String(Base64.encodeBytes(md.digest()));
                 Log.d("hash key", KeyResult)
-                Toast.makeText(this, "My FB Key is \n$KeyResult", Toast.LENGTH_LONG).show()
+//                Toast.makeText(this, "My FB Key is \n$KeyResult", Toast.LENGTH_LONG).show()
             }
         } catch (e1: NameNotFoundException) {
             Log.e("name not found", e1.toString())
