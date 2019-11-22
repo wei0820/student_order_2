@@ -8,42 +8,41 @@
         android:layout_height="match_parent"
         tools:context="com.student.student_order_2.OrderActivity"
         android:orientation="vertical">
-    <LinearLayout
+    <RelativeLayout
             android:layout_alignParentTop="true"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:orientation="horizontal"
             >
-        <Button
+
+        <com.spark.submitbutton.SubmitButton
                 android:id="@+id/settingbtn"
-                android:background="#ffffff"
-
                 android:text="設定"
-                android:textSize="28dp"
-                android:layout_marginRight="8dp"
-
-                android:layout_weight="3"
+                android:textSize="15dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                ></Button>
-        <Button
-                android:text="您好！"
-                android:textSize="28dp"
-                android:layout_marginLeft="8dp"
-                android:background="#ffffff"
-
-                android:layout_weight="7"
+                android:textColor="@color/gray"
+                app:sub_btn_background="@color/white"
+                app:sub_btn_line_color="@color/green" />
+        <com.spark.submitbutton.SubmitButton
+                android:layout_alignParentRight="true"
+                android:text="購物紀錄"
+                android:textSize="15dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                ></Button>
-    </LinearLayout>
+                android:textColor="@color/gray"
+                app:sub_btn_background="@color/white"
+                app:sub_btn_duration="30"
+                app:sub_btn_line_color="@color/green"
+                app:sub_btn_ripple_color="@color/green"
+                app:sub_btn_tick_color="@color/white" />
+    </RelativeLayout>
 
     <Button
 
             android:text="麵線"
             android:textSize="28dp"
-            android:background="#ffffff"
-
+            android:background="@drawable/buttoonstyle"
             android:id="@+id/food1"
             android:layout_centerInParent="true"
             android:layout_width="200dp"
