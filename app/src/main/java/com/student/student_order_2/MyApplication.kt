@@ -5,7 +5,6 @@ import com.facebook.FacebookSdk
 import com.facebook.appevents.AppEventsLogger
 import com.firebase.client.Firebase
 import android.content.pm.PackageInfo
-import android.widget.Toast
 import android.content.pm.PackageManager
 import android.content.pm.PackageManager.NameNotFoundException
 import android.util.Base64
