@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".OrderListActivity"
-        android:background="@mipmap/bg3">
+        android:background="@color/white">
     <ListView
             android:layout_marginBottom="16dp"
             android:layout_above="@+id/layout"
@@ -25,7 +25,8 @@
             android:orientation="vertical"
     >
         <TextView
-                android:textColor="#000000"
+                android:textColor="@color/black"
+                android:textSize="20dp"
 
                 android:id="@+id/price"
                 android:layout_width="wrap_content"
@@ -38,7 +39,8 @@
                 android:layout_height="wrap_content"
         >
             <TextView
-                    android:textColor="#000000"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
 
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -46,14 +48,14 @@
             ></TextView>
             <Button
                     android:layout_marginRight="8dp"
-                    android:background="#ffffff"
+                    android:background="@drawable/buttoonstyle"
                     android:id="@+id/btn11"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="內用"
             ></Button>
             <Button
-                    android:background="#ffffff"
+                    android:background="@drawable/buttoonstyle"
 
                     android:id="@+id/btn22"
                     android:layout_width="wrap_content"
@@ -72,7 +74,7 @@
     >
         <Button
                 android:layout_marginRight="8dp"
-                android:background="#ffffff"
+                android:background="@drawable/buttoonstyle"
 
                 android:id="@+id/clear"
                 android:layout_width="wrap_content"
@@ -80,7 +82,7 @@
                 android:text="清除"
         ></Button>
         <Button
-                android:background="#ffffff"
+                android:background="@drawable/buttoonstyle"
 
                 android:id="@+id/send"
                 android:layout_width="wrap_content"

@@ -31,7 +31,7 @@
             android:id="@+id/button"
             android:text="大腸麵線"
             android:textSize="28dp"
-            android:background="#ffffff"
+            android:background="@drawable/buttoonstyle"
 
             android:layout_marginTop="28dp"
             android:layout_below="@+id/toplayout"
@@ -45,7 +45,7 @@
             android:id="@+id/button2"
             android:text="肉羹麵線"
             android:textSize="24dp"
-            android:background="#ffffff"
+            android:background="@drawable/buttoonstyle"
 
             android:layout_marginTop="28dp"
             android:layout_below="@+id/button"
@@ -58,7 +58,7 @@
 
             android:text="綜合麵線"
             android:textSize="24dp"
-            android:background="#ffffff"
+            android:background="@drawable/buttoonstyle"
 
             android:layout_marginTop="28dp"
             android:layout_below="@+id/button2"
@@ -69,10 +69,9 @@
     <Button
 
             android:id="@+id/button4"
-
             android:text="清麵線"
             android:textSize="24dp"
-            android:background="#ffffff"
+            android:background="@drawable/buttoonstyle"
 
             android:layout_marginTop="28dp"
             android:layout_below="@+id/button3"
@@ -92,8 +91,7 @@
                 android:text="餐點"
                 android:textSize="28dp"
                 android:layout_marginRight="8dp"
-                android:background="#ffffff"
-
+                android:background="@drawable/buttoonstyle"
                 android:layout_weight="4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -103,8 +101,7 @@
                 android:text="購物清單"
                 android:textSize="28dp"
                 android:layout_marginLeft="8dp"
-                android:background="#ffffff"
-
+                android:background="@drawable/buttoonstyle"
                 android:layout_weight="6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
