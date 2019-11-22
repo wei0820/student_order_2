@@ -132,7 +132,7 @@ class OrderListActivity : AppCompatActivity(), MfirebaeCallback {
         var key = MySharedPrefernces.getUserPic(this) + s
         val memberMap = HashMap<String, String>()
         memberMap.put("id", MySharedPrefernces.getUserPic(this))
-        memberMap.put("date", key)
+        memberMap.put("date", s.toString())
         memberMap.put("list", list)
         memberMap.put("name", name)
         memberMap.put("price", price)
