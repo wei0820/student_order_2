@@ -18,7 +18,7 @@
         <Button
                 android:background="@drawable/buttoonstyle"
                 android:id="@+id/settingbtn"
-                android:text="設定"
+                android:text="關於"
                 android:textSize="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent" />
